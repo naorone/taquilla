@@ -16,6 +16,7 @@
 
     <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
     <link href="/css/plantilla.css" rel="stylesheet" type="text/css">
+    <link href="/css/modal.css" rel="stylesheet" type="text/css">
     <link href="/css/bootstrap.css" rel="stylesheet" type="text/css">
     <script href="/js/jquery-3.2.1.min.js"></script>
 
@@ -43,29 +44,20 @@
             <div class="col-md-9">
 
 
-                <!-- Modal -->
-                <div id="myModal" class="modal fade" role="dialog">
+                <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
                     <div class="modal-dialog">
+                        <div class="loginmodal-container">
+                            <h1>Login to Your Account</h1><br>
+                            <form>
+                                <input type="text" name="user" placeholder="Username">
+                                <input type="password" name="pass" placeholder="Password">
+                                <input type="submit" name="login" class="login loginmodal-submit" value="Login">
+                            </form>
 
-                        <!-- Modal content-->
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <button type="button" class="close" data-dismiss="modal">&times;</button>
-                                <h4 class="modal-title">Log in</h4>
-                            </div>
-
-                            <div>
-                                <label for="inputPassword" class="col-sm-2 control-label">Nombre</label>
-                                <div class="col-sm-8">
-                                    <input type="text" class="form-control" id="inputPassword" placeholder="Nombre">
-                                </div>
-                            </div>
-
-                            <div class="modal-footer">
-                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                            <div class="login-help">
+                                <a href="#">Register</a> - <a href="#">Forgot Password</a>
                             </div>
                         </div>
-
                     </div>
                 </div>
 
