@@ -10,9 +10,12 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
     <link href="/css/plantilla.css" rel="stylesheet" type="text/css">
+    <link href="/css/nav.css" rel="stylesheet" type="text/css">
     <link href="/css/modal.css" rel="stylesheet" type="text/css">
     <link href="/css/bootstrap.css" rel="stylesheet" type="text/css">
-    <script href="/js/jquery-3.2.1.min.js"></script>
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/responsiveMenu.js"></script>
+
 
     <!-- Styles -->
 

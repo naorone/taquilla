@@ -3,15 +3,15 @@
 @section('content')
 
     <div class="row">
-        <div class="col-xs-3 col-sm-6 col-md-8">
+        <div class="col-xs-12 col-sm-6 col-md-8 colMensaje">
 
-
-
+        <h1>RECIBE TUS PEDIDOS EN TAQUILLAS</h1>
+            <h2>Más seguridad y facilidad</h2>
 
 
 
         </div>
-        <div class="col-xs-7 col-sm-4 col-md-3 colRegistro">
+        <div class="col-xs-12 col-sm-4 col-md-3 colRegistro">
             <form class="form-horizontal pad">
 
                 <div class="form-group">
@@ -42,7 +42,7 @@
         </div>
 
         <div class="row">
-            <div class="col-xs-2 col-md-1">
+            <div class="col-xs-1 col-md-1">
 
 
 
