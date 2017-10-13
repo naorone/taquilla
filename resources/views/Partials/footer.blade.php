@@ -1,7 +1,7 @@
 <footer>
-    <div class="container">
-        <img src="css/fb.png" class="redes">
-        <img src="css/tw.png" class="redes">
+    <span class="redes" >
+        <a href="https://www.facebook.com"><img src="css/images/fb.png"></a>
+        <a href="https://www.twitter.com"><img src="css/images/tw.png"></a>
 
-    </div>
+    </span>
 </footer>

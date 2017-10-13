@@ -10,7 +10,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <img src="css/locker.png" class="logo">
+                <img src="css/images/locker.png" class="logo">
             </div>
 
 
