@@ -103,6 +103,10 @@ nav ul li a:hover{ /* cuando pasamos el raton por encima queremos que: */
     font-weight: bold;
 }
 
+.control-label label{
+    margin-top: 10px;
+}
+
 .colMensaje{
     margin-top: 50px;
     margin-left:20px;

@@ -85,6 +85,8 @@ footer{
     padding: 20px;
 }
 
+
+
 .colEmail{
     background-color: rgba(0, 0, 0, 0.7);
     color:white;
@@ -110,6 +112,7 @@ footer{
 .form-horizontal .control-label{
     color: whitesmoke;
     margin-right: 30px;
+    margin-top: 10px;
 }
 .btn-default{
     font-weight: bold;

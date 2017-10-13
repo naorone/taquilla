@@ -12,8 +12,8 @@
 */
 
 Route::get('/', function () {
-    return view('home');
+    return view('layouts/home');
 });
 Route::get('/contacto', function () {
-    return view('contacto');
+    return view('layouts/contacto');
 });
