@@ -12,42 +12,42 @@
 
         </div>
         <div class="col-xs-12 col-sm-4 col-md-3 colRegistro">
-            <form class="form-horizontal pad">
-
+            <form method="POST" action="layouts/contacto" class="form-horizontal pad">
+                {{ csrf_field() }}
                 <div class="form-group">
                     <label for="inputPassword" class="col-sm-2 control-label">Nombre</label>
                     <div class="col-sm-8">
-                        <input type="text" class="form-control" id="inputPassword" placeholder="Nombre">
+                        <input type="text" class="form-control" id="inputPassword" placeholder="Nombre" name="nombre">
                     </div>
                 </div>
                 <div class="form-group">
                     <label for="inputPassword" class="col-sm-2 control-label">Email</label>
                     <div class="col-sm-8">
-                        <input type="email" class="form-control" id="inputPassword" placeholder="Email">
+                        <input type="email" class="form-control" id="inputPassword" placeholder="Email" name="email">
                     </div>
                 </div>
                 <div class="form-group">
                     <label for="inputPassword" class="col-sm-2 control-label">Direccion</label>
                     <div class="col-sm-8">
-                        <input type="text" class="form-control" id="inputPassword" placeholder="Direccion">
+                        <input type="text" class="form-control" id="inputPassword" placeholder="Direccion" name="direccion">
                     </div>
                 </div>
                 <div class="form-group">
                     <label for="inputPassword" class="col-sm-2 control-label">Usuario</label>
                     <div class="col-sm-8">
-                        <input type="text" class="form-control" id="inputPassword" placeholder="Usuario">
+                        <input type="text" class="form-control" id="inputPassword" placeholder="Usuario" name="usuario">
                     </div>
                 </div>
 
                 <div class="form-group">
                     <label for="inputPassword" class="col-sm-2 control-label">Password</label>
                     <div class="col-sm-8">
-                        <input type="password" class="form-control" id="inputPassword" placeholder="Password">
+                        <input type="password" class="form-control" id="inputPassword" placeholder="Password" name="password">
                     </div>
                 </div>
 
                 <div role="group" aria-label="...">
-                    <button type="button" class="btn btn-default">Registro</button>
+                    <button type="submit" class="btn btn-default">Registro</button>
 
                 </div>
             </form>

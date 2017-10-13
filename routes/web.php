@@ -14,6 +14,5 @@
 Route::get('/', function () {
     return view('layouts/home');
 });
-Route::get('/contacto', function () {
-    return view('layouts/contacto');
-});
+Route::get('/layouts/contacto', 'UsuariosController@contacto');
+Route::post('/layouts/contacto', 'UsuariosController@registro');
