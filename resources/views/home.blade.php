@@ -1,4 +1,4 @@
-@extends('plantilla')
+@extends('layouts.plantilla')
 
 @section('content')
 
@@ -12,7 +12,7 @@
 
         </div>
         <div class="col-xs-12 col-sm-4 col-md-3 colRegistro">
-            <form method="POST" action="layouts/contacto" class="form-horizontal pad">
+            <form method="POST" action="contacto" class="form-horizontal pad">
                 {{ csrf_field() }}
                 <div class="form-group">
                     <label for="inputPassword" class="col-sm-2 control-label">Nombre</label>
@@ -47,10 +47,27 @@
                 </div>
 
                 <div role="group" aria-label="...">
-                    <button type="submit" class="btn btn-default">Registro</button>
+                    <button type="submit" class="btn btn-default" data-toggle="modal" data-target="#modalReg">Registro</button>
+
 
                 </div>
             </form>
+
+            {{-- Validacion --}}
+
+            @if(! $errors -> isEmpty())
+                <div class="error">
+                    <p>ERROR al insertar los datos</p>
+                    <ul>
+                        @foreach($errors -> all() as $error)
+                            <li>{{ $error }}</li>
+                        @endforeach
+                    </ul>
+                </div>
+
+
+            @endif
+
         </div>
 
         <div class="row">

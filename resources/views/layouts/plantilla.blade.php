@@ -10,7 +10,9 @@
 
 @include('Partials.loginModal')
 
+
 @yield('content')
+
 
 
 @include('Partials.footer')

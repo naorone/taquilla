@@ -153,3 +153,12 @@ h2, .h2{
     padding-top: 56px;
     width:100%;
 }
+
+.error{
+    color: red;
+    margin-top: 15px;
+}
+.completado{
+    color: white;
+    margin-top: 15px;
+}

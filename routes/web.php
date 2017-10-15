@@ -12,7 +12,7 @@
 */
 
 Route::get('/', function () {
-    return view('layouts/home');
+    return view('/home');
 });
-Route::get('/layouts/contacto', 'UsuariosController@contacto');
-Route::post('/layouts/contacto', 'UsuariosController@registro');
+Route::get('/contacto', 'UsuariosController@contacto');
+Route::post('/contacto', 'UsuariosController@registro');

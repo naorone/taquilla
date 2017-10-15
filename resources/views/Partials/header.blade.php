@@ -1,5 +1,8 @@
 <header>
 
+
+
+
     <nav class="navbar navbar-default">
         <div class="container-fluid">
 
@@ -10,7 +13,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <img src="css/images/locker.png" class="logo">
+                <img id="logo" src="css/images/locker.png" class="logo">
             </div>
 
 

@@ -10,7 +10,7 @@ class UsuariosController extends Controller
     public function contacto()
     {
 
-        return view('layouts/contacto');
+        return view('contacto');
     }
 
 
@@ -26,7 +26,7 @@ class UsuariosController extends Controller
         ;
 
         Usuario::create($request->all());
-        return view('layouts/contacto');
+        return view('home');
     }
 
 
